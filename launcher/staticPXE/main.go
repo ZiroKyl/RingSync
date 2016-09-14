@@ -89,16 +89,16 @@ func main() {
 	}{};
 
 	{
-		var configPatch  =  flag.String("conf", "example_config.json", "patch to config file");
-		conf.file        =  flag.String("file", "", "patch to transfer file");
+		var configPath =  flag.String("conf", "example_config.json", "path to config file");
+		conf.file      =  flag.String("file", "", "path to transfer file");
 
 		flag.Parse();
 
 		if *conf.file == "" {
-			log.Fatalln("Please set patch to transfer file.");
+			log.Fatalln("Please set path to transfer file.");
 		}
 
-		var configJSON, err = ioutil.ReadFile(*configPatch);
+		var configJSON, err = ioutil.ReadFile(*configPath);
 		if err != nil {
 			log.Fatalln("Error reading config file:", err);
 		}
