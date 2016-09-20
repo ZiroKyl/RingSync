@@ -4,7 +4,7 @@ RingSync - file synchronization utility.
 
 RingSync synchronize file on multiple computers at full network speed, i.e. no matter how many computers need to be synced (two or two thousand) the synchronization time will be the same (as only two computers are synced).
 
-**Article**: [RingSync: синхронизируем на полной скорости сети](http://9b.asoiu.com/2016/3704/ringsync-синхронизируем-на-полной скорости-с/) [RU]
+**Article**: [RingSync: синхронизируем на полной скорости сети](http://9b.asoiu.com/2016/3704/ringsync-синхронизируем-на-полной-скорости-с/) [RU]
 
 ![RingSync scheme: 1 x Seed - switch - N-1 x Peers + 1 x Leech](https://cdn.rawgit.com/ZiroKyl/RingSync/master/doc/RingSync_scheme.svg)
 
